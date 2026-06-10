@@ -1,0 +1,153 @@
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  originalPrice?: number;
+  rating: number;
+  reviewCount: number;
+  image: string;
+  category: string;
+  badge?: "sale" | "featured" | "new";
+  description: string;
+};
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Wireless Noise-Cancelling Headphones",
+    price: 79.99,
+    originalPrice: 129.99,
+    rating: 4.8,
+    reviewCount: 2341,
+    image: "https://m.media-amazon.com/images/I/61RahTQtAqL._AC_UF894,1000_QL80_.jpg",
+    category: "Electronics",
+    badge: "sale",
+    description: "Premium sound with 30-hour battery life and active noise cancellation.",
+  },
+  {
+    id: 2,
+    name: "Minimalist Leather Watch",
+    price: 149.99,
+    rating: 4.7,
+    reviewCount: 876,
+    image: "https://m.media-amazon.com/images/I/61RahTQtAqL._AC_UF894,1000_QL80_.jpg",
+    category: "Accessories",
+    badge: "featured",
+    description: "Slim profile with genuine leather strap and sapphire crystal glass.",
+  },
+  {
+    id: 3,
+    name: "Ultralight Running Sneakers",
+    price: 89.99,
+    originalPrice: 119.99,
+    rating: 4.6,
+    reviewCount: 1543,
+    image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg",
+    category: "Footwear",
+    badge: "sale",
+    description: "Breathable mesh upper with responsive foam cushioning for all-day comfort.",
+  },
+  {
+    id: 4,
+    name: "Portable Bluetooth Speaker",
+    price: 59.99,
+    rating: 4.5,
+    reviewCount: 987,
+    image: "https://cdn.thewirecutter.com/wp-content/media/2024/11/portablebluetoothspeakers-2048px-9130.jpg?width=2048&quality=60&crop=2048:1365&auto=webp",
+    category: "Electronics",
+    badge: "new",
+    description: "360° surround sound with waterproof design and 12-hour playtime.",
+  },
+  {
+    id: 5,
+    name: "Merino Wool Crewneck Sweater",
+    price: 69.99,
+    rating: 4.9,
+    reviewCount: 432,
+    image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg",
+    category: "Clothing",
+    badge: "featured",
+    description: "Soft, temperature-regulating merino wool in a classic relaxed fit.",
+  },
+  {
+    id: 6,
+    name: "Stainless Steel Water Bottle",
+    price: 34.99,
+    originalPrice: 44.99,
+    rating: 4.7,
+    reviewCount: 3210,
+    image: "https://i.etsystatic.com/16291412/r/il/6a1ce9/3582734063/il_fullxfull.3582734063_eyq1.jpg",
+    category: "Accessories",
+    badge: "sale",
+    description: "Double-wall insulation keeps drinks cold 24h or hot 12h.",
+  },
+  {
+    id: 7,
+    name: "Mechanical Keyboard TKL",
+    price: 119.99,
+    rating: 4.8,
+    reviewCount: 654,
+    image: "https://media.gamestop.com/i/gamestop/20006080_Black_ALT02?$pdp$?w=1256&h=664&fmt=auto",
+    category: "Electronics",
+    badge: "new",
+    description: "Tactile brown switches with RGB backlighting and aluminum frame.",
+  },
+  {
+    id: 8,
+    name: "Canvas Tote Bag",
+    price: 24.99,
+    rating: 4.4,
+    reviewCount: 1876,
+    image: "https://www.burpee.com/media/catalog/product/1/9/19789a25e426e46273feefd29bcbbe3b0c75b13649816990db64183236e48eff.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=680&width=680",
+    category: "Accessories",
+    description: "Heavy-duty 12oz canvas with reinforced handles and interior pocket.",
+  },
+  {
+    id: 9,
+    name: "Slim Fit Chino Pants",
+    price: 54.99,
+    originalPrice: 74.99,
+    rating: 4.5,
+    reviewCount: 723,
+    image: "https://www.roddandgunn.com/on/demandware.static/-/Sites-roddandgunn-master-catalog/default/dwc913ca7e/images/007173/VP0611_PEBBLE_FT_LGE.jpg",
+    category: "Clothing",
+    badge: "sale",
+    description: "Stretch cotton blend for all-day comfort in a modern tapered cut.",
+  },
+  {
+    id: 10,
+    name: "Leather Chelsea Boots",
+    price: 179.99,
+    rating: 4.8,
+    reviewCount: 345,
+    image: "http://lennertson.com/cdn/shop/files/CLOSE_RIDER_GASTON_01.jpg?v=1759421429",
+    category: "Footwear",
+    badge: "featured",
+    description: "Full-grain leather upper with elastic side panels and stacked heel.",
+  },
+  {
+    id: 11,
+    name: "Smart Fitness Tracker",
+    price: 49.99,
+    originalPrice: 69.99,
+    rating: 4.3,
+    reviewCount: 2109,
+    image: "https://cdn.thewirecutter.com/wp-content/media/2023/06/fitnesstrackers-2048px-09819-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp",
+    category: "Electronics",
+    badge: "sale",
+    description: "Heart rate, sleep tracking, and 7-day battery in a slim wristband.",
+  },
+  {
+    id: 12,
+    name: "Linen Button-Down Shirt",
+    price: 44.99,
+    rating: 4.6,
+    reviewCount: 567,
+    image: "https://www.billyreid.com/cdn/shop/files/s24_102-1508_tuscumbia-linen-shirt-button-down_white_44.jpg?v=1773174568&width=700",
+    category: "Clothing",
+    badge: "new",
+    description: "Breathable linen fabric perfect for warm weather in a relaxed fit.",
+  },
+];
+
+export const categories = ["All", "Electronics", "Clothing", "Footwear", "Accessories"];
