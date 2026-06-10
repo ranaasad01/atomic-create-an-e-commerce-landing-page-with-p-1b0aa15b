@@ -26,7 +26,7 @@ export default function HeroSection() {
                 Latest Trends
               </span>
             </h1>
-            <p className="text-indigo-100 text-lg mb-8 max-w-md leading-relaxed">
+            <p className="text-indigo-100 text-lg mb-8 max-w-md leading-relaxed" style={{ fontFamily: 'Inter', fontSize: '22px' }}>
               Discover thousands of products across electronics, fashion, footwear, and accessories — all at unbeatable prices with free shipping on orders over $50.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -84,14 +84,14 @@ export default function HeroSection() {
             <div className="space-y-4 mt-8">
               <div className="rounded-2xl overflow-hidden aspect-video bg-white/10">
                 <img
-                  src="https://assets.adidas.com/images/w_600,f_auto,q_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/1b0aa15b-3bf7-4e72-846c-97cc6da34b7d/5180ca94cd90478e8a4dca846a3ab671.png"
                   alt="Running Sneakers"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden aspect-square bg-white/10">
                 <img
-                  src="https://assets.adidas.com/images/w_600,f_auto,q_auto/aa0bd45abac541d29ff40b492e15cfa4_9366/Runfalcon_5_Running_Shoes_Black_IH7758_HM1.jpg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/1b0aa15b-3bf7-4e72-846c-97cc6da34b7d/5180ca94cd90478e8a4dca846a3ab671.png"
                   alt="Merino Sweater"
                   className="w-full h-full object-cover"
                 />
