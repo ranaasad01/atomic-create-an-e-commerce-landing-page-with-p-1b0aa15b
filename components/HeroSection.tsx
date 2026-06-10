@@ -33,6 +33,7 @@ export default function HeroSection() {
               <Link
                 href="/#products"
                 className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-full hover:bg-indigo-50 transition-colors shadow-lg"
+                style={{ color: '#f4f4f6', backgroundColor: '#1d1e20' }}
               >
                 Shop Now
                 <ArrowRight className="w-4 h-4" />

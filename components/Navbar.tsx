@@ -1,9 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { ShoppingCart, Menu, X, Sparkles } from 'lucide-react';
 import { useCart } from "@/lib/cart-context";
-import { useState } from "react";
 
 export default function Navbar() {
   const { totalItems } = useCart();
